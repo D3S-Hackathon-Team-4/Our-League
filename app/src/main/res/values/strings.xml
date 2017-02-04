@@ -18,6 +18,6 @@
 
     <!-- Main -->
     <string name="create_league_button">경기 생성</string>
-
+    <string name="show_ranking_button">랭킹 보기</string>
 
 </resources>
