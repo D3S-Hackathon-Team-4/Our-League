@@ -79,8 +79,14 @@ public class MainActivity extends AppCompatActivity implements LOLFragment.OnFra
             }
 
             @Override
+<<<<<<< HEAD
             public void onPageScrollStateChanged(int state) {
 
+=======
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ScheduleActivity.class);
+                startActivity(intent);
+>>>>>>> 71fdaae196c1e7d1f22465623fc688dbcd5c6119
             }
         });
 

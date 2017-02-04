@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="미디고등학교"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="15dp"
             android:textSize="30dp"
             android:textColor="#D5333A"
@@ -54,7 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true">
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
 
             <Button
                 android:layout_width="100dp"
@@ -90,17 +91,52 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/box_1"
         android:layout_marginTop="5dp"
+        android:gravity="center"
         android:background="@drawable/circle_background_rectangle">
+
         <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></Spinner>
+            android:layout_marginTop="30dp"
+            android:id="@+id/member_spinner"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true" />
 
         <EditText
+            android:id="@+id/location_suggest"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="경기 장소 제안"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/member_spinner"
+            />
+
+        <EditText
+            android:id="@+id/calling"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="연락처 및 한마디"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/location_suggest"/>
+
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="경기를 신청합니다"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@id/calling"
+            android:background="@drawable/button_create"
+            />
+
 
 
 

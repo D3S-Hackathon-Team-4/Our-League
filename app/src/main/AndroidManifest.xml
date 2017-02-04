@@ -9,17 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activity.SplashActivity" />
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.ScheduleActivity" />
+        <activity android:name=".Activity.CreateGameActivity">
+        </activity>
+        <activity android:name=".Activity.SettingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>r
         </activity>
-        <activity android:name=".Activity.LoginActivity" />
-        <activity android:name=".Activity.SignUpActivity" />
-        <activity android:name=".Activity.RankingActivity"></activity>
-        <activity android:name=".Activity.CreateGameActivity"></activity>
+        <activity android:name=".Activity.AlarmActivity" />
+        <activity android:name=".Activity.GameResultActivity"></activity>
     </application>
 
 </manifest>
