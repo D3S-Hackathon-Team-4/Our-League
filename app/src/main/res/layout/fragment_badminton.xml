@@ -4,10 +4,12 @@
     android:layout_height="match_parent"
     tools:context="d3s.team_four.our.league.SportSpeciesFragment.BadmintonFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:src="@drawable/dimigologo"
         />
+
+
 
 </FrameLayout>
