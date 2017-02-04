@@ -2,4 +2,65 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_name" />
+        <EditText
+            android:id="@+id/signup_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_id"
+            android:layout_below="@id/signup_name"/>
+        <EditText
+            android:id="@+id/signup_pw"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_pw"
+            android:layout_below="@id/signup_id"/>
+        <EditText
+            android:id="@+id/signup_pw_confirm"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_pw_confirm"
+            android:layout_below="@id/signup_pw"/>
+        <EditText
+            android:id="@+id/signup_school"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_school"
+            android:layout_below="@id/signup_pw_confirm"/>
+        <EditText
+            android:id="@+id/signup_grade"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_grade"
+            android:layout_below="@id/signup_school"/>
+        <EditText
+            android:id="@+id/signup_class"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_class"
+            android:layout_below="@id/signup_grade"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_ok"
+            android:layout_below="@id/signup_class"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+
+
 </RelativeLayout>

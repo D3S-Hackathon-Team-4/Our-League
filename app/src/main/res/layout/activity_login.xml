@@ -21,14 +21,14 @@
             android:id="@+id/id"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="@string/id"
+            android:hint="@string/login_id"
             />
 
         <EditText
             android:id="@+id/pw"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="@string/password"
+            android:hint="@string/login_password"
             android:layout_below="@id/id"
             android:paddingTop="10dp"
             />
@@ -36,7 +36,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login"
+            android:text="@string/login_button"
             android:id="@+id/login_button"
             android:layout_below="@id/pw"
             android:layout_centerHorizontal="true"
