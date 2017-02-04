@@ -1,0 +1,19 @@
+{
+  "name": "d3s_hackathon_team4_ourleague_server",
+  "version": "1.0.0",
+  "description": "Our League API Server for DS3 Hackathon Team 4",
+  "main": "D3SHackathonTeam4Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MR.LEE(LEE SANG HUN) - leeshoon1344@gmail.com-",
+  "license": "ISC",
+  "dependencies": {
+    "argon2-ffi": "^1.0.1",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "csvtojson": "^1.1.4",
+    "express": "^4.14.1",
+    "monk": "^3.1.4"
+  }
+}
