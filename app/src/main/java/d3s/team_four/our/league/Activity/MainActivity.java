@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import d3s.team_four.our.league.PagerAdapter;
@@ -33,8 +35,14 @@ public class MainActivity extends AppCompatActivity implements LOLFragment.OnFra
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), textView);
         viewpager.setAdapter(pagerAdapter);
 
-        Intent intent = new Intent(MainActivity.this, RankingActivity.class);
-        startActivity(intent);
+        Button rankingShowButton = (Button) findViewById(R.id.ranking_button);
+        rankingShowButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RankingActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
