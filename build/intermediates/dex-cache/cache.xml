@@ -2,148 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_88bd5aa2d0510b6658269796f27c78823b0343ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_fbebd29bcc0aeabe38226f0dd11b84c35cb5648b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.3.0_83ac50435d21440e4e4eb48463aa454fe0701df1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_77523ee142b3fdc8b693f8c9c9aa0f5f27f429a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_b022ab3dd3d48a05c632074f3653212a94585d84.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_3ed64d3d83ecf9db9b08001a793c0634507e6e50.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c23dc476b08b5175ded594068fde07ebb8b0a2ea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_527af7f9a96db8df295c29684203288d075b8c53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_7775e49088eb12ada59bc559488d8140d641616c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_304147b70be717c2c53a638ebcd5c341f5c99cf9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8d6cc48bcb17320fff00dd5a0d618933c9e67ccb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_f21035ed48fc023348b07720048d7cd871b11bb2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0a7af4d2f99da684106782b9ad588b35040bf702.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/ab6049facd4c599a0d5ed797afc072c58e4d459c/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a20942692e3bd7780081162195763a42dddcdd45.jar" />
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ca406612a1b92772056b5a5868ac5d3a011e1f31/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/ce1b111974ce66cdb6315f913c5a78d2de102ed9/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_71242d6e5d7057fee741de958ee96a3a7473ca68.jar" />
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ab92a7e01043f5b762bf1afa0d0c16b4370661cb/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/4c5e436aefc1b21099e089308ec43fd2daa61f5a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e79f2fb753a0ae664181cd586a349e092c60225/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/f686ac0a3c16a0acca1add319ef7833a29c8dde9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6cbc07bb857acf830c65cfa89ffd3c186fb6b22a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/1ea79d964485ee45fa4c872335fd55864c7b1aa5/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_17627d85bd692e2abffc27d11fafd21dc48fe834/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/ab6049facd4c599a0d5ed797afc072c58e4d459c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a75b28ac89e9a453517f9b1768f781753b1fdfe7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/50455f299a0ecf77ae2116a8f9e693bff2b49040/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cc61adad791b96c2e793e87d6d3f3d073e02ada1">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df07a02626cd8d2c26d6efdf56f63ac26397ae74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/4f1f6e58d7ccd840e18c4bf2199f12b4ca4da381/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_6253fab59950d56db37df67674b9e5bfb69c25a5.jar" />
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_468f863a13319c5a90c16e69c106d9fae3abf0e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/ce1b111974ce66cdb6315f913c5a78d2de102ed9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dafacf4d81d31b45409f6eed4fc7a3fc5af5e294/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45e6357fcb0121c426548386b3e67d7326eeda4d">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_915700a032fcb17e35812010da145f6535cdcc50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/AndroidSDK/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_f17ebede063e46dc7ba2285aa1a29caf8cebd09a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/e55da60aec283dc6d62adf975b41f84981dcb234/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ca66fedd7e30751c179b8cdbe61a425cecd19482/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/1ea79d964485ee45fa4c872335fd55864c7b1aa5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64d62f04d2f9b452f72c38728cb0ca5aa4d5fe83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/9c990cd71b6ca11078f915eb16ecbadac6cef80d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb15b7b80a2da5b2a27b5ec81c08a310e992d629/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/4f1f6e58d7ccd840e18c4bf2199f12b4ca4da381/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ef937b3049db8d33dad42c9511c97e501cb88feb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="53cb4a17c5d4c95f850e380ef5abdec49b36d8d5">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b7109ce42d5e510ff08e0d5eb1cb3e18a207953a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/e55da60aec283dc6d62adf975b41f84981dcb234/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7f75c2221fdc4b6cffca07cbab9db10a0d0d5b6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/bd3a3d6e02b6d7b3b2a1d59311cdeaa4806b1ed6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d634094c7119584fcce3068c080f8f70e43fc4e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/be58419cdeecdcea91b86d8f02a60691c25b7ed6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_57917c42eb9e0edac19b09c07369526b139381eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dsa28s/.android/build-cache/7fcab015eb51cd25fe63051f30fb516d5056b18a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/dsa28s/Desktop/OurLeauge/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e9ef29e1d1b8ed4fcae630d85c3ca92e44604b5/classes.dex" />
     </item>
 
 </items>

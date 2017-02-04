@@ -1,53 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context="d3s.team_four.our.league.Activity.MainActivity">
+    android:background="@drawable/purplegradient">
 
 
     <RelativeLayout
         android:id="@+id/box_school"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#9D9D9D"
-        >
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp">
 
-
-        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/school_image"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-
-            android:layout_centerVertical="true"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/dimigologo"
-            app:border_color="#FFFFFF" />
 
         <TextView
             android:id="@+id/score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0전 0승 0패 0무"
-            android:layout_toRightOf="@+id/school_name"
-            android:layout_marginTop="10dp"
+            android:layout_alignBottom="@+id/school_name"
             android:layout_marginLeft="10dp"
-            android:textSize="10dp"
-            android:layout_alignBottom="@id/school_name"
-            android:textColor="#FFFFFF"/>
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/school_name"
+            android:text="0전 0승 0패 0무"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Song Hyemin"
-            android:layout_below="@id/school_name"
-            android:textStyle="bold"
+            android:layout_below="@+id/school_name"
+            android:text="송혜민 (Hyemin Song)"
             android:textColor="#FFFFFF"
             android:textSize="25dp"
-            android:layout_toRightOf="@id/school_image"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/school_name"
@@ -55,10 +43,7 @@
             android:layout_height="wrap_content"
             android:text="한국디지털미디어고등학교"
             android:textColor="#FFFFFF"
-            android:textSize="20dp"
-            android:layout_alignTop="@+id/school_image"
-            android:layout_toRightOf="@+id/school_image"
-            android:layout_toEndOf="@+id/school_image" />
+            android:textSize="20dp" />
 
     </RelativeLayout>
 
@@ -66,86 +51,91 @@
         android:id="@+id/button_alarm"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_below="@id/box_school"
         android:layout_margin="20dp"
-        android:scaleType="fitCenter"
         android:background="@drawable/alarm"
-        android:layout_below="@id/box_school"/>
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/button_setting"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_margin="20dp"
-        android:scaleType="fitCenter"
-        android:background="@drawable/setting"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/box_school"
-        android:layout_alignParentRight="true"/>
+        android:layout_margin="20dp"
+        android:background="@drawable/setting"
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
+
+    <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        app:icvp_center_page_scale_offset="30dp"
+        app:icvp_max_page_scale="0.8"
+        app:icvp_medium_scaled="true"
+        app:icvp_min_page_scale="0.5"
+        app:icvp_min_page_scale_offset="5dp"
+        app:icvp_scroll_duration="500"/>
 
 
-
-    <android.support.v4.view.ViewPager
+    <!--<android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
-        android:layout_below="@+id/box_school"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_below="@+id/box_school"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        >
+        android:layout_marginTop="100dp">
 
     </android.support.v4.view.ViewPager>
 
     <TextView
         android:id="@+id/species_text"
-        android:layout_marginTop="15dp"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:textColor="#FFFFFF"
-        android:textAlignment="center"
-        android:textSize="25dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="7dp"
-        android:background="@drawable/show_species"
         android:layout_below="@id/view_pager"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/show_species"
+        android:paddingBottom="7dp"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" /> -->
 
     <LinearLayout
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_height="70dp"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <Button
-            android:layout_marginLeft="15dp"
             android:id="@+id/create_league_button"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/create_league_button"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/button_create"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
             android:layout_weight="1"
-            />
+            android:background="@drawable/button_create"
+            android:text="@string/create_league_button"
+            android:textColor="#FFFFFF" />
 
         <Button
-            android:layout_marginRight="15dp"
             android:id="@+id/ranking_button"
             android:layout_width="wrap_content"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/show_ranking_button"
-            android:background="@drawable/button_rank"
-            android:textColor="#FFFFFF"
             android:layout_marginLeft="10dp"
-            />
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rank"
+            android:text="@string/show_ranking_button"
+            android:textColor="#FFFFFF" />
 
 
     </LinearLayout>
-
-
-
-
 
 
 </RelativeLayout>

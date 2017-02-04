@@ -21,41 +21,26 @@ public class PagerAdapter extends FragmentPagerAdapter {
     private Fragment curFragment = new Fragment();
     private TextView v = null;
 
-    public PagerAdapter(FragmentManager fm, TextView v) {
+    public PagerAdapter(FragmentManager fm) {
         super(fm);
-        this.v = v;
     }
 
     @Override
     public Fragment getItem(int position) {
-        if(position<0 || MAX_PAGE<=position)
-            return null;
-        switch (position+1){
+        switch(position) {
+            case 0:
+                return new SoccerFragment();
             case 1:
-                curFragment = new SoccerFragment();
-                break;
+                return new BaseballFragment();
             case 2:
-                v.setText("축구");
-                curFragment = new BaseballFragment();
-                break;
+                return new BadmintonFragment();
             case 3:
-                v.setText("야구");
-                curFragment = new BadmintonFragment();
-                break;
+                return new BasketballFragment();
             case 4:
-                v.setText("배드민턴");
-                curFragment = new BasketballFragment();
-                break;
-            case 5:
-                v.setText("농구");
-                curFragment = new LOLFragment();
-                break;
-
-            case 6:
-                v.setText("LOL");
-
+                return new LOLFragment();
+            default:
+                return null;
         }
-        return curFragment;
     }
 
     @Override
