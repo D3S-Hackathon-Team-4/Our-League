@@ -14,7 +14,7 @@
         </activity>
         <activity android:name=".Activity.LoginActivity" />
         <activity android:name=".Activity.SignUpActivity" />
-        <activity android:name=".Activity.RankingActivity"></activity>
+        <activity android:name=".Activity.ScheduleActivity"></activity>
         <activity android:name=".Activity.CreateGameActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

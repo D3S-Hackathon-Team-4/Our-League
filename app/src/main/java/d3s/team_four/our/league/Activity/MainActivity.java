@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements LOLFragment.OnFra
         rankingShowButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, RankingActivity.class);
+                Intent intent = new Intent(MainActivity.this, ScheduleActivity.class);
                 startActivity(intent);
             }
         });

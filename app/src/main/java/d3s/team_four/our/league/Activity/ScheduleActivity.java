@@ -9,7 +9,7 @@ import d3s.team_four.our.league.ListViewCustomAdapter;
 import d3s.team_four.our.league.ListViewItemComponent;
 import d3s.team_four.our.league.R;
 
-public class RankingActivity extends AppCompatActivity {
+public class ScheduleActivity extends AppCompatActivity {
 
     private ListView listView;
     private ListViewCustomAdapter adapter;
@@ -18,7 +18,7 @@ public class RankingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ranking);
+        setContentView(R.layout.activity_schedule);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("경기 일정");
