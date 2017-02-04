@@ -14,13 +14,14 @@
         <activity android:name=".Activity.SignUpActivity" />
         <activity android:name=".Activity.ScheduleActivity" />
         <activity android:name=".Activity.CreateGameActivity">
+        </activity>
+        <activity android:name=".Activity.SettingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>r
         </activity>
-        <activity android:name=".Activity.SettingActivity" />
         <activity android:name=".Activity.AlarmActivity" />
         <activity android:name=".Activity.GameResultActivity"></activity>
     </application>
