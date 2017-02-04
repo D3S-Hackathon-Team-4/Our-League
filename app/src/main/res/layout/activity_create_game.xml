@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="미디고등학교"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="15dp"
             android:textSize="30dp"
             android:textColor="#D5333A"
@@ -102,8 +102,7 @@
             android:id="@+id/member_spinner"
             android:layout_width="280dp"
             android:layout_height="40dp"
-            android:layout_centerHorizontal="true"
-            android:prompt="member" />
+            android:layout_centerHorizontal="true" />
 
         <EditText
             android:id="@+id/location_suggest"

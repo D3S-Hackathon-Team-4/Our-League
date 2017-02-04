@@ -20,4 +20,5 @@
     <string name="create_league_button">경기 생성</string>
     <string name="show_ranking_button">랭킹 보기</string>
 
+    <string name="member_n">인원 수 설정</string>
 </resources>
