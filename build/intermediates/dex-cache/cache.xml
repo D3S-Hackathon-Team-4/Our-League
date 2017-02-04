@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_88bd5aa2d0510b6658269796f27c78823b0343ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_fbebd29bcc0aeabe38226f0dd11b84c35cb5648b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.3.0_83ac50435d21440e4e4eb48463aa454fe0701df1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_77523ee142b3fdc8b693f8c9c9aa0f5f27f429a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_b022ab3dd3d48a05c632074f3653212a94585d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_3ed64d3d83ecf9db9b08001a793c0634507e6e50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c23dc476b08b5175ded594068fde07ebb8b0a2ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_527af7f9a96db8df295c29684203288d075b8c53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_7775e49088eb12ada59bc559488d8140d641616c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_304147b70be717c2c53a638ebcd5c341f5c99cf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8d6cc48bcb17320fff00dd5a0d618933c9e67ccb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_f21035ed48fc023348b07720048d7cd871b11bb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0a7af4d2f99da684106782b9ad588b35040bf702.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a20942692e3bd7780081162195763a42dddcdd45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_71242d6e5d7057fee741de958ee96a3a7473ca68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/songhyemin/Desktop/2017 IT/Our-League/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_6253fab59950d56db37df67674b9e5bfb69c25a5.jar" />
+    </item>
+
+</items>

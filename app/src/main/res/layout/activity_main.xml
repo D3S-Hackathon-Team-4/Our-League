@@ -11,7 +11,7 @@
         android:id="@+id/box_school"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#EF9A9A"
+        android:background="#9D9D9D"
         >
 
 
@@ -19,10 +19,13 @@
             android:id="@+id/school_image"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
             android:src="@drawable/dimigologo"
-            app:border_color="#FFFFFF"
-            app:border_width="1dp" />
+            app:border_color="#FFFFFF" />
+
         <TextView
             android:id="@+id/school_name"
             android:layout_width="wrap_content"
@@ -39,28 +42,106 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0전 0승 0패 0무"
-            android:layout_below="@id/school_name"
-            android:layout_toRightOf="@+id/school_image"/>
-
-
+            android:layout_toRightOf="@+id/school_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:layout_alignBottom="@id/school_name"
+            android:textColor="#FFFFFF"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Song Hyemin"
-            android:layout_below="@id/score"
-            android:textSize="15dp"
+            android:layout_below="@id/school_name"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
             android:layout_toRightOf="@id/school_image"/>
 
     </RelativeLayout>
 
+    <ImageButton
+        android:id="@+id/button_alarm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_etc"
+        android:src="@drawable/alarm"
+        android:layout_below="@id/box_school"/>
+
+    <ImageButton
+        android:id="@+id/button_setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/setting"
+        android:layout_below="@id/box_school"
+        android:layout_alignParentRight="true"/>
+
+
+
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_below="@+id/box_school"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp">
 
     </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="야구"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/show_species"
+        android:layout_below="@id/view_pager"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/create_league_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/create_league_button"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_create"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_marginRight="15dp"
+            android:id="@+id/ranking_button"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/create_league_button"
+            android:background="@drawable/button_rank"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+
 
 
 

@@ -17,7 +17,7 @@
     <string name="signup_ok">가입</string>
 
     <!-- Main -->
-
+    <string name="create_league_button">경기 생성</string>
 
 
 </resources>
