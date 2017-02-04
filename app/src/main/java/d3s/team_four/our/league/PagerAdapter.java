@@ -30,28 +30,29 @@ public class PagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if(position<0 || MAX_PAGE<=position)
             return null;
-        switch (position){
-            case 0:
-                v.setText("축구");
+        switch (position+1){
+            case 1:
                 curFragment = new SoccerFragment();
                 break;
-            case 1:
-                v.setText("야구");
+            case 2:
+                v.setText("축구");
                 curFragment = new BaseballFragment();
                 break;
-            case 2:
-                v.setText("배드민턴");
+            case 3:
+                v.setText("야구");
                 curFragment = new BadmintonFragment();
                 break;
-            case 3:
-                v.setText("농구");
+            case 4:
+                v.setText("배드민턴");
                 curFragment = new BasketballFragment();
                 break;
-            case 4:
-                v.setText("LOL");
+            case 5:
+                v.setText("농구");
                 curFragment = new LOLFragment();
-
                 break;
+
+            case 6:
+                v.setText("LOL");
 
         }
         return curFragment;

@@ -1,5 +1,6 @@
 package d3s.team_four.our.league.Activity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity implements LOLFragment.OnFra
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), textView);
         viewpager.setAdapter(pagerAdapter);
 
-
+        Intent intent = new Intent(MainActivity.this, RankingActivity.class);
+        startActivity(intent);
 
     }
 
